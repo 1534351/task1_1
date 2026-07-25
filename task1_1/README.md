@@ -86,6 +86,7 @@ Python >= 3.10
 
 ```bash
 pip install -r requirements.txt
+'''
 
 ---
 
