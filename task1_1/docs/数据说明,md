@@ -1,0 +1,98 @@
+# 数据说明
+
+
+## 1. 原始数据
+
+
+### EQUIP_JBS_PWEQUIPINFO.csv
+
+配网设备模型信息。
+
+
+主要字段：
+
+|字段|说明|
+|-|-|
+|EQUIP_ID|设备编号|
+|EQUIP_NAME|设备名称|
+|EQUIP_TYPE|设备类型|
+|FEEDER_ID|所属馈线|
+|DSUBSTATION_ID|所属厂站|
+
+
+
+作用：
+
+提供设备基础属性。
+
+
+---
+
+
+## 2. 配网端子数据
+
+
+### EQUIP_JBS_PWTERMINAL.csv
+
+
+描述设备端子连接关系。
+
+
+作用：
+
+用于构建设备拓扑。
+
+
+---
+
+
+## 3. 主网数据
+
+
+### EQUIP_JBS_ZWEQUIPINFO.csv
+
+主网设备信息。
+
+
+### EQUIP_JBS_ZWTERMINAL.csv
+
+主网端子连接信息。
+
+
+作用：
+
+用于判断配网馈线是否能够追踪到主网电源。
+
+
+---
+
+
+## 4. 处理后数据
+
+
+### equipment_clean.csv
+
+清洗后的设备信息。
+
+
+### terminal_clean.csv
+
+清洗后的端子信息。
+
+
+### edge.csv
+
+设备拓扑边：
+
+SOURCE-TARGET
+
+
+### power_source.csv
+
+馈线电源状态。
+
+
+### feeder_power_trace.csv
+
+馈线主网连接追踪结果。
+
