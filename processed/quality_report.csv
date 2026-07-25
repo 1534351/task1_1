@@ -1,0 +1,6 @@
+﻿table,check,number
+equipment,EQUIP_ID缺失,0
+equipment,FEEDER_ID缺失,0
+equipment,DSUBSTATION_ID缺失,5195
+equipment,EQUIP_ID重复,0
+terminal,拓扑连接缺失,0
