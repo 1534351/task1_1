@@ -88,8 +88,6 @@ Python >= 3.10
 pip install -r requirements.txt
 '''
 
----
-
 ## 6. 使用方法
 
 数据预处理
